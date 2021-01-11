@@ -6,11 +6,12 @@
       {
         "id": "d7cab5f7ef1dc75c",
         "type": "leaf",
+        "dimension": 47.40909090909091,
         "active": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "format().md",
+            "file": "random.md",
             "mode": "source"
           }
         }
@@ -18,10 +19,11 @@
       {
         "id": "56cc7d3ad583099b",
         "type": "leaf",
+        "dimension": 52.59090909090909,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "format().md",
+            "file": "random.md",
             "mode": "preview"
           }
         }
@@ -64,7 +66,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 230
   },
   "right": {
     "id": "9e4de3fa024ef6a3",
@@ -80,7 +82,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "format().md",
+                "file": "random.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,8 +99,9 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "format().md",
+    "random.md",
     "Untitled.md",
+    "format().md",
     "Função print().md"
   ]
 }
