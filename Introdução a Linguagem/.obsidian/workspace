@@ -11,7 +11,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "random.md",
+            "file": "Métodos com Strings.md",
             "mode": "source"
           }
         }
@@ -23,7 +23,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "random.md",
+            "file": "Métodos com Strings.md",
             "mode": "preview"
           }
         }
@@ -82,7 +82,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "random.md",
+                "file": "Métodos com Strings.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,6 +99,7 @@
     "collapsed": true
   },
   "lastOpenFiles": [
+    "Métodos com Strings.md",
     "random.md",
     "Untitled.md",
     "format().md",
