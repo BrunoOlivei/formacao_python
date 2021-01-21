@@ -127,15 +127,33 @@ Pode ser executado também utilizando a função `.readlines()`:
 ['banana\n', 'melancia\n', 'morango\n', 'maça\n']
 ```
 
+------
 
+
+
+## .strip()
 
 Como visto apenas quando utilizamos a iteração sobre o conteúdo do arquivo com a função print parametrizada para ao final de cada string não conter o \n que conseguimos eliminar ele do conteúdo final de cada string, seja sozinho como resultado, seja atribuindo a uma variável ou até mesmo em uma lista.
 
 Nós podemos utilizar a função `.strip()` para isso:
 
 ```python
->>> 
+>>> lista = []
+>>> for linha in arquivo:
+        lista.append(linha.strip())
+>>> print(lista)
+['banana', 'melancia', 'morango', 'maça']
 ```
+
+Também funciona com:
+
+```python
+>>> palavra1 = arquivo.readline()
+>>> print(palavra1.strip())
+'banana'
+```
+
+
 
 
 

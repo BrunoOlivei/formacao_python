@@ -6,16 +6,12 @@ def jogar():
     print("Bem vindo ao jogo de Forca!")
     print("********************************")
 
-    arquivo = open("palavras.txt", "r")
-    palavras = []
+    with open("palavras.txt", "r", encoding='UTF-8') as arquivo:
+        palavras = []
+        for linha in arquivo:
+            linha = linha.strip()
+            palavras.append(linha)
 
-    for linha in arquivo:
-        linha = linha.strip()
-        palavras.append(linha)
-
-    arquivo.close()
-
-    print(palavras)
     numero = randrange(0, len(palavras))
     palavra_secreta = palavras[numero].upper()
     letras_acertadas = ["_" for letra in palavra_secreta]
