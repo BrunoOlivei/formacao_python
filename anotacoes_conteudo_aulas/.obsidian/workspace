@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Estrutura de Dados/Introdução.md",
+            "file": "Orientação a Objeto/Orientação a Objeto parte 1.md",
             "mode": "source"
           }
         }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Estrutura de Dados/Introdução.md",
+                "file": "Orientação a Objeto/Orientação a Objeto parte 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,15 +86,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "Estrutura de Dados/Untitled.md",
     "Orientação a Objeto/Orientação a Objeto parte 1.md",
+    "Estrutura de Dados/Introdução.md",
+    "Estrutura de Dados/Untitled.md",
     "Introdução a Linguagem/random.md",
     "Introdução a Linguagem/Módulo sys e os.md",
     "Introdução a Linguagem/Lendo arquivos.md",
     "Introdução a Linguagem/List Comprehensions.md",
     "Introdução a Linguagem/Métodos com Strings.md",
     "Introdução a Linguagem/Escrevendo em um arquivo e o lendo.md",
-    "Introdução a Linguagem/format().md",
-    "Introdução a Linguagem/Conhecendo o Python.md"
+    "Introdução a Linguagem/format().md"
   ]
 }
