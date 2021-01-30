@@ -26,23 +26,23 @@ Utilizando o modo a+ para abertura de arquivo, podemos acessar o documento e adi
 
 Para que possamos utilizar o conteúdo do arquivo é uma boa prática abrimos o mesmo em uma variável:
 
-<img src="C:\Users\bruol\OneDrive\Formação Python\formacao_python\anotacoes_conteudo_aulas\Introdução a Linguagem\Images\13_open.jpg" alt="13_open" style="zoom: 80%;" />
+![[13_open.jpg]]
 
 Agora podemos escrever no arquivo, para isto utilizamos a função built-in `.write()`:
 
 Utilizando a variável que contem o arquivo, chamamos a função e passamos como argumento dentro dos parênteses uma string que será o nosso conteúdo:
 
-<img src="C:\Users\bruol\OneDrive\Formação Python\formacao_python\anotacoes_conteudo_aulas\Introdução a Linguagem\Images\14_write_1.jpg" alt="14_write_1" style="zoom:80%;" />
+![[14_write_1.jpg]]
 
 Repare que o comando retornou o número 6 que é a quantidade de caracteres inseridos através da função.
 
 Podemos escrever mais palavras seguidas vezes:
 
-<img src="C:\Users\bruol\OneDrive\Formação Python\formacao_python\anotacoes_conteudo_aulas\Introdução a Linguagem\Images\15_write_2.jpg" alt="15_write_2" style="zoom:80%;" />
+![[15_write_2.jpg]]
 
 Após trabalhar com arquivos é uma boa prática fecha-lo, isso é importante pois o sistema operacional cria um caminho de comunicação, em alguns casos esse caminho pode bloquear outros acessos, impossibilitando por exemplo que você ou outro colaborador consiga acessar o arquivo de outra forma para editar ou apenas visualizar. Por isso a importância de encerrar esse caminho de comunicação, para isso utilizamos a função `close()`
 
-<img src="C:\Users\bruol\OneDrive\Formação Python\formacao_python\anotacoes_conteudo_aulas\Introdução a Linguagem\Images\16_close.jpg" alt="16_close" style="zoom:80%;" />
+![[16_close.jpg]]
 
 ---
 
@@ -54,31 +54,31 @@ Agora como acessar esse arquivo dentro da IDLE do python? No comando prompt já 
 
 Utilizando o comando `dir` direto no prompt: 
 
-![17_dir](C:\Users\bruol\OneDrive\Formação Python\formacao_python\anotacoes_conteudo_aulas\Introdução a Linguagem\Images\17_dir.jpg)
+![[17_dir.jpg]]
 
 Não vemos nenhum arquivo com nome "palavras.txt", como poderemos encontra-lo?
 
-É ai que entra o módulo OS no python, vamos importá-lo e usar o comando `os.getcwd()` para saber onde estamos trabalhando:
+É ai que entra o módulo OS no python, vamos importá-lo e usar o comando [[Módulo sys e os#getcwd]] para saber onde estamos trabalhando:
 
-<img src="C:\Users\bruol\OneDrive\Formação Python\formacao_python\anotacoes_conteudo_aulas\Introdução a Linguagem\Images\18_os.getcwd.jpg" alt="18_os.getcwd"  />
+![[18_os.getcwd.jpg]]
 
 A função `os.getcwd()` retorna o diretório onde estamos trabalhando, portanto se acessarmos ele através do prompt do windows, poderemos ver o arquivo criado, dentro do prompt utilizando o comando `cd` acesse o caminho informado no terminal python:
 
-![19_cd](C:\Users\bruol\OneDrive\Formação Python\formacao_python\anotacoes_conteudo_aulas\Introdução a Linguagem\Images\19_cd.jpg)
+![[19_cd.jpg]]
 
 Utilizando o comando `dir` para listar os arquivos contidos neste diretório:
 
-![20_dir](C:\Users\bruol\OneDrive\Formação Python\formacao_python\anotacoes_conteudo_aulas\Introdução a Linguagem\Images\20_dir.jpg)
+![[20_dir.jpg]]
 
 Agora podemos enxergar o arquivo e uma vez trabalhando na pasta, podemos inclusive lê-lo dentro do terminal do windows, para isso, basta acessar o python neste ambiente.
 
 Inicializando o python no terminal, importando o módulo OS e comande o `os.getcwd()`:
 
-![21.python](C:\Users\bruol\OneDrive\Formação Python\formacao_python\anotacoes_conteudo_aulas\Introdução a Linguagem\Images\21.python.jpg)
+![[21.python.jpg]]
 
 Veja que estamos no mesmo ambiente que a IDLE do python onde se encontra o arquivo "palavras.txt". Agora utilizando os mesmos comandos para abrir o arquivo vamos acessá-lo para conseguirmos le-lo:
 
-![22_open_read](C:\Users\bruol\OneDrive\Formação Python\formacao_python\anotacoes_conteudo_aulas\Introdução a Linguagem\Images\22_open_read.jpg)
+![[22_open_read.jpg]]
 
 Repare o que nos retornou: **bananamelancia** não era bem isso que queríamos. Por que isso ocorreu?
 
@@ -112,7 +112,7 @@ Pronto agora que escrevemos todas as frutas, vamos acessar o arquivo novamente d
 
 O resultado:
 
-![23_read](C:\Users\bruol\OneDrive\Formação Python\formacao_python\anotacoes_conteudo_aulas\Introdução a Linguagem\Images\23_read.jpg)
+![[23_read.jpg]]
 
 Será que está realmente formatado como queremos? Vamos acessar o arquivo diretamente através do explorador de arquivos do computador, antes disso vamos encerrar a comunicação do python com o arquivo utilizando o comando:
 
@@ -122,7 +122,7 @@ Será que está realmente formatado como queremos? Vamos acessar o arquivo diret
 
 Buscando o arquivo dentro do nosso explorador de arquivos do windows temos:
 
-<img src="C:\Users\bruol\OneDrive\Formação Python\formacao_python\anotacoes_conteudo_aulas\Introdução a Linguagem\Images\24_palavras_txt.jpg" alt="24_palavras_txt" style="zoom:80%;" />
+![[24_palavras_txt.jpg]]
 
 Tudo certo com nosso arquivo. 
 

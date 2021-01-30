@@ -1,0 +1,100 @@
+{
+  "main": {
+    "id": "3b08417cc839a360",
+    "type": "split",
+    "children": [
+      {
+        "id": "e47bfdb918fad0c3",
+        "type": "leaf",
+        "active": true,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Estrutura de Dados/Introdução.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "cbd9b9220f04caef",
+    "type": "split",
+    "children": [
+      {
+        "id": "5e116cd30cdc1590",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fff8a8e67225cba2",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "e0d7fef7013390cb",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "560403f536885d8d",
+    "type": "split",
+    "children": [
+      {
+        "id": "e2426e8b8cd1deaa",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2e3efaa3d2ca72a0",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Estrutura de Dados/Introdução.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "lastOpenFiles": [
+    "Estrutura de Dados/Untitled.md",
+    "Orientação a Objeto/Orientação a Objeto parte 1.md",
+    "Introdução a Linguagem/random.md",
+    "Introdução a Linguagem/Módulo sys e os.md",
+    "Introdução a Linguagem/Lendo arquivos.md",
+    "Introdução a Linguagem/List Comprehensions.md",
+    "Introdução a Linguagem/Métodos com Strings.md",
+    "Introdução a Linguagem/Escrevendo em um arquivo e o lendo.md",
+    "Introdução a Linguagem/format().md",
+    "Introdução a Linguagem/Conhecendo o Python.md"
+  ]
+}
