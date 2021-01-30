@@ -82,6 +82,8 @@ Construindo objeto ... <conta.Conta object at 0x11077bcc0>
 Construindo objeto ... <conta.Conta object at 0x1109e1da0>
 ```
 
+> No início das definições de classe, é um consenso dentro da comunidade python, que os atributos criados sejam o mínimo necessário para começar a trabalhar. Um exemplo prático é a criação de uma classe Cliente. Nós tendemos a ficar tentados a iniciar criando o máximo de informação possível, do nome até o nível escolar, passando por estado civil e etnia. Porém dentro do seu contexto quais informações realmente são importantes e quais podemos deixar para um momento futuro?
+
 ---
 
 Acessando atributos
@@ -482,3 +484,4 @@ Saldo 89000.0 do titular Michele.
 Funciona perfeitamente, desta forma é até melhor pois ao pedir a conta de origem e a conta de destino pode causar confusão para o usuário.
 
 ---
+
