@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Orientação a Objeto/Orientação a Objeto parte 1.md",
+            "file": "Estrutura de Dados/Introdução.md",
             "mode": "source"
           }
         }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Orientação a Objeto/Orientação a Objeto parte 1.md",
+                "file": "Estrutura de Dados/Introdução.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,8 +86,8 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "Orientação a Objeto/Orientação a Objeto parte 1.md",
     "Estrutura de Dados/Introdução.md",
+    "Orientação a Objeto/Orientação a Objeto parte 1.md",
     "Estrutura de Dados/Untitled.md",
     "Introdução a Linguagem/random.md",
     "Introdução a Linguagem/Módulo sys e os.md",

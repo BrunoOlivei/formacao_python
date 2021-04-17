@@ -16,7 +16,7 @@ class Conta:
         self.__saldo += valor
 
     def pode_saca(self, valor_a_sacar):
-        valor_disponivel = self.__saldo + self.__saldo
+        valor_disponivel = self.__saldo + self.__limite
         return valor_a_sacar <= valor_disponivel
 
     def saca(self, valor):
@@ -48,3 +48,7 @@ class Conta:
     @staticmethod
     def codigo_banco():
         return '001'
+
+    @staticmethod
+    def codigos_bancos():
+        return {'BB': '001', 'Caixa': '104', 'Bradesco': '237'}
