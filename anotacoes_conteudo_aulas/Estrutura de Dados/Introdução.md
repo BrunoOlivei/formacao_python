@@ -87,3 +87,4 @@ Uma das características da linguagem python é a possibilidade de atribuir valo
 5.  Imprimimos o tipo da variável numero;
 6.  Resultado, como esperado é uma `int`.
 
+<span style='color:blue'>teste</span>
