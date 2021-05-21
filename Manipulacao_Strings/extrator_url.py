@@ -38,7 +38,7 @@ class ExtratorUrl:
             valor = self.get_url_parametros()[indice_valor:]
         else:
             valor = self.get_url_parametros()[indice_valor:indice_e_comercial]
-        return valor
+        return int(valor)
 
     def __len__(self):
         return len(self.url)
@@ -48,5 +48,6 @@ class ExtratorUrl:
 
     def __eq__(self, other):
         return self.url == other.url
+
 
 
