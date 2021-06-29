@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% block body %}
+
+<h2>{{ the_title }}</h2>
+
+<form method="POST" action="/procuraletra">
+  <table>
+    <p>Use este formulário para fazer sua pesquisa:</p>
+    <tr><td>Frase:</td><td><input name="frase" type="TEXT" width="60"></td></tr>
+    <tr><td>Letras:</td><td><input name="letras" type="TEXT" value="aeiou"></td></tr>
+  </table>
+  <p>Quando estiver pronto, clique neste botão:</p>
+  <p><input value="Pesquisar" type="SUBMIT"></p>
+</form>
+
+{% endblock %}
