@@ -19,4 +19,5 @@ def pagina_inicial() -> 'html':
     return render_template('entry.html', the_title="Bem vindo ao procure letras!")
 
 
-app.run(debug=True)
+if __name__ == '__main__':
+    app.run(debug=True)
